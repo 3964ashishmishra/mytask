@@ -18,7 +18,7 @@ const Register = () => {
 
         e.preventDefault();
 
-        const response = await fetch(`${process.env.REACT_APP_URL}register`,{
+        const response = await fetch(`${process.env.REACT_APP_URL}/register`,{
 
         method:"POST",
         headers:{
