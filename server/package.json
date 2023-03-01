@@ -1,11 +1,10 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build":"npm run build",
+    "build": "npm run build",
     "start": "node app.js"
   },
   "author": "Ashish Mishra",
@@ -16,5 +15,7 @@
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "mongoose": "^7.0.0"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
