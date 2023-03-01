@@ -4,6 +4,8 @@ import { Link,useNavigate } from 'react-router-dom'
 
 const Register = () => {
 
+   
+
     const navigate = useNavigate();
 
     const [email, setEmail] = useState('');
@@ -16,7 +18,7 @@ const Register = () => {
 
         e.preventDefault();
 
-        const response = await fetch('http://localhost:8000/register',{
+        const response = await fetch(`${process.env.REACT_APP_URL}register`,{
 
         method:"POST",
         headers:{

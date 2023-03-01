@@ -13,7 +13,7 @@ const Signin = () => {
 
         e.preventDefault();
 
-        const res = await fetch("http://localhost:8000/login",{
+        const res = await fetch(`${process.env.REACT_APP_URL}login`,{
 
             method:"POST",
             headers:{
